@@ -16,12 +16,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class GeneratedTests extends TestBase {
     @Test
     @Description("Check search is finding correct item)")
-    @DisplayName("Simple Search test")
+    @DisplayName("Check search is finding correct item")
     void simpleSearchTest() {
         step("Open 'https://www.wildberries.ru/' and put 'печенье' into search line ", () -> {
             mainPage.searchItem("печенье");
         });
-        step("Click Enter", () -> {
+        step("Click Enter and check results", () -> {
             mainPage.chekItem("Печенье");
         });
     }
