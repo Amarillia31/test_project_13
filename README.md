@@ -32,6 +32,11 @@
 ## :robot: Сборки в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/AUTO-1117/">Параметризированная сборка в Jenkins со всеми тестами</a>
 <p align="center">
+<img title="Jenkins Job Run with parameters" src="images/screenshots/jenkins1.png">
+</p>
+
+###  Главная страница сборки <a target="_blank" href="https://jenkins.autotests.cloud/job/AUTO-1117/">Jenkins</a>
+<p align="center">
 <img title="Jenkins Job Run with parameters" src="images/screenshots/jenkins0.png">
 </p>
 
@@ -52,6 +57,59 @@ test
 -DbrowserSize=${BROWSER_SIZE}
 -DremoteDriverUrl=https://${REMOTE_DRIVER_LOGIN}:${REMOTE_DRIVER_PASSWORD}@${REMOTE_DRIVER_URL}/wd/hub/
 ```
+### Параметры сборки
+
+> <code>BROWSER</code> – браузер, в котором будут выполняться тесты (_по умолчанию - <code>chrome</code>_).
+>
+> <code>BROWSER_VERSION</code> – версия браузера, в котором будут выполняться тесты (_по умолчанию - <code>100.0</code>_).
+>
+> <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>1920x1080</code>_).
+> 
+> <code>BROWSER_MOBILE</code> – мобильный браузер, в котором будут выполняться тесты.
+>
+> <code>REMOTE_URL</code> – удаленный браузер, в котором будут выполняться тесты.
+> 
+> <code>LOGIN_REMOTE</code> – логин для подключения к selenoid.
+> 
+> <code>PASSWORD_REMOTE</code> – пароль для подключения к selenoid.
+> 
+> <code>THREADS</code> – количество потоков.
+
+## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/12-Antipant-HW14/allure/)
+
+### :pushpin: Главная страница Allure-отчета
+
+<p align="center">
+<img title="Allure Overview" src="images/screenshots/allure_main.PNG">
+</p>
+
+### :pushpin: Страница с тестами
+
+<p align="center">
+<img title="Allure Behaviors" src="images/screenshots/allure_tests.PNG">
+</p>
+
+### :pushpin: Основной дашборд
+
+<p align="center">
+<img title="Allure Overview Dashboard" src="images/screenshots/allure_stata.PNG">
+</p>
+
+
+## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+
+> После завершения сборки бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом.
+<p align="center">
+<img title="Telegram Notifications" src="images/screenshots/telegram_report.PNG">
+</p>
+
+## <img width="4%" title="Telegram" src="images/logo/Selenoid.svg"> Пример запуска теста в Selenoid
+
+К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
+<p align="center">
+<img title="Selenoid Video" src="images/gif/video.gif">
+</p>
+
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
 :blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
