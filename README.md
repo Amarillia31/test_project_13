@@ -80,19 +80,19 @@ test
 ### :pushpin: Главная страница Allure-отчета
 
 <p align="center">
-<img title="Allure Overview" src="images/screenshots/allure-main.PNG">
+<img title="Allure Overview" src="images/screenshots/allure-main.png">
 </p>
 
 ### :pushpin: Страница с тестами
 
 <p align="center">
-<img title="Allure Behaviors" src="images/screenshots/allure-tests.PNG">
+<img title="Allure Behaviors" src="images/screenshots/allure-tests.png">
 </p>
 
 ### :pushpin: Основной дашборд
 
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screenshots/allure-stata.PNG">
+<img title="Allure Overview Dashboard" src="images/screenshots/allure-stata.png">
 </p>
 
 
@@ -100,7 +100,7 @@ test
 
 > После завершения сборки бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом.
 <p align="center">
-<img title="Telegram Notifications" src="images/screenshots/telegram-report.PNG">
+<img title="Telegram Notifications" src="images/screenshots/telegram-report.png">
 </p>
 
 ## <img width="4%" title="Telegram" src="images/logo/Selenoid.svg"> Пример запуска теста в Selenoid
